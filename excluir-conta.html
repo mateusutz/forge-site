@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Excluir conta — Forge</title>
+<meta name="description" content="Como excluir sua conta do aplicativo Forge e todos os dados associados.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0B0F19; --surface:#161E2E; --border:#2A3344;
+    --text:#f0f0f2; --muted:#9a9aa2; --dim:#7a7a82;
+    --accent:#EF4444;
+  }
+  *{box-sizing:border-box}
+  body{margin:0; background:var(--bg); color:var(--text);
+       font-family:Inter,system-ui,sans-serif; font-size:15px; line-height:1.65}
+  .wrap{max-width:720px; margin:0 auto; padding:34px 20px 70px}
+  header{display:flex; align-items:center; gap:11px; margin-bottom:6px}
+  .mark{width:34px;height:34px;flex:none}
+  h1{font-family:'Barlow Condensed',sans-serif; text-transform:uppercase;
+     letter-spacing:.5px; font-size:34px; margin:0; line-height:1.1}
+  h1 .f{color:var(--accent)}
+  .sub{color:var(--dim); font-size:13.5px; margin:0 0 26px}
+  h2{font-family:'Barlow Condensed',sans-serif; text-transform:uppercase;
+     letter-spacing:.5px; font-size:22px; margin:32px 0 10px}
+  p,li{color:#d6d6da}
+  a{color:var(--accent)}
+  ul,ol{padding-left:20px}
+  li{margin:6px 0}
+  strong{color:var(--text)}
+  .card{background:var(--surface); border:1px solid var(--border);
+        border-radius:14px; padding:16px 18px; margin:18px 0}
+  .card p:first-child{margin-top:0}
+  .card p:last-child{margin-bottom:0}
+  .btn{display:inline-block; background:var(--accent); color:#fff; text-decoration:none;
+       font-weight:700; padding:13px 20px; border-radius:11px; margin-top:6px}
+  .warn{border-left:3px solid var(--accent); padding-left:14px; color:var(--muted); font-size:13.5px}
+  footer{margin-top:44px; padding-top:18px; border-top:1px solid var(--border);
+         color:var(--dim); font-size:12.5px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <svg class="mark" viewBox="0 0 24 24" fill="var(--accent)" aria-hidden="true">
+      <path d="M18.5 3.2l-2.1 2.1-1.1-1.1-1.4 1.4 1 1-2.6 2.6H4.2c-.5 0-.8.5-.6.9l1 1.7c.4.7 1.1 1.1 1.9 1.1h1.1c-.2 1.7-1.1 3.2-2.5 4.1-.3.2-.5.5-.5.9v.9h13.9v-.9c0-.4-.2-.7-.5-.9-1.4-.9-2.3-2.4-2.5-4.1h1.4c.8 0 1.5-.4 1.9-1.1l1-1.7c.2-.4-.1-.9-.6-.9h-1.1l2.6-2.6 1 1 1.4-1.4-3.1-3.1zM7.1 8l-1.5-.6.6 1.5-1.5.6 1.5.6-.6 1.5 1.5-.6.6 1.5.6-1.5 1.5.6-.6-1.5 1.5-.6-1.5-.6.6-1.5-1.5.6L7.7 6.5 7.1 8z"/>
+    </svg>
+    <h1><span class="f">F</span>orge</h1>
+  </header>
+  <p class="sub">Excluir conta e dados</p>
+
+  <p>Esta página explica como excluir a sua conta do aplicativo <strong>Forge</strong>
+  (desenvolvido por Mateus Utz) e todos os dados associados a ela. Você pode fazer isso
+  <strong>dentro do app</strong> ou <strong>por aqui</strong>, sem precisar reinstalá-lo.</p>
+
+  <h2>Opção 1 — Dentro do aplicativo</h2>
+  <div class="card">
+    <ol>
+      <li>Abra o Forge e entre na sua conta.</li>
+      <li>Vá em <strong>Perfil</strong>.</li>
+      <li>Na seção <strong>Conta</strong>, toque em <strong>Excluir conta</strong>.</li>
+      <li>Confirme. A exclusão é imediata e permanente.</li>
+    </ol>
+  </div>
+
+  <h2>Opção 2 — Solicitar pela web</h2>
+  <div class="card">
+    <p>Se você não tem mais o aplicativo instalado, envie um email a partir do
+    <strong>mesmo endereço de email cadastrado na sua conta do Forge</strong>, com o assunto
+    <strong>"Excluir minha conta"</strong>.</p>
+    <p><a class="btn" href="mailto:mateus.utz@gmail.com?subject=Excluir%20minha%20conta&body=Peço%20a%20exclusão%20permanente%20da%20minha%20conta%20do%20Forge%20e%20de%20todos%20os%20dados%20associados%20a%20ela.">Solicitar exclusão por email</a></p>
+    <p class="warn">O envio a partir do email cadastrado serve para confirmar que a solicitação é
+    realmente sua. O pedido é atendido em <strong>até 30 dias</strong>, normalmente em poucos dias.
+    Você recebe uma confirmação por email quando a exclusão for concluída.</p>
+  </div>
+
+  <h2>O que é excluído</h2>
+  <p>A exclusão é <strong>permanente</strong> e não é uma desativação temporária. São apagados:</p>
+  <ul>
+    <li>O registro de autenticação da conta (email e/ou vínculo com a conta Google).</li>
+    <li>Perfil: nome, data de nascimento, sexo, altura, percentual de gordura, nível de atividade e objetivo.</li>
+    <li>Registros de peso corporal.</li>
+    <li>Treinos, exercícios, agenda, histórico de sessões e cargas registradas.</li>
+    <li>Alimentos, refeições, plano alimentar e metas nutricionais.</li>
+  </ul>
+  <p>Ao excluir a conta pelo aplicativo, a cópia local dos dados naquele aparelho também é apagada.
+  Se você usou o Forge em outro aparelho, desinstalar o app remove a cópia local dele.</p>
+
+  <h2>Dados mantidos</h2>
+  <p>Nenhum dado pessoal é mantido após a exclusão. O Forge não guarda cópias para outras
+  finalidades, não usa seus dados para publicidade e não os compartilha com terceiros.</p>
+
+  <h2>Antes de excluir</h2>
+  <p>Se quiser guardar seu histórico, use a função de <strong>backup</strong> do app
+  (<strong>Perfil → Backup</strong>) para exportar seus dados em arquivo antes de apagar a conta.
+  Depois da exclusão não é possível recuperá-los.</p>
+
+  <footer>
+    Forge — aplicativo de treino e nutrição. Desenvolvido por Mateus Utz.<br>
+    Veja também a <a href="./privacidade.html">Política de Privacidade</a>.
+  </footer>
+
+</div>
+</body>
+</html>
